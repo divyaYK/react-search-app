@@ -1,7 +1,8 @@
+import LandingPage from "./pages/LandingPage";
 import "./scss/main.scss";
 
 function App() {
-  return <div>hello</div>;
+  return <LandingPage />;
 }
 
 export default App;

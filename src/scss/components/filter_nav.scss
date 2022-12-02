@@ -1,0 +1,6 @@
+.filter-nav {
+  display: flex;
+  width: 20%;
+  background-color: $white;
+  @include border-small;
+}

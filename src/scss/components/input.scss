@@ -1,0 +1,29 @@
+.search-content {
+  display: flex;
+  @include border-small;
+  color: $gray-dark;
+  padding: 0.5rem 1rem;
+  width: 70%;
+  position: absolute;
+  transition: width 0.3s ease-out;
+  border-radius: 4px;
+
+  &:hover {
+    @include border-small-blue;
+  }
+  &:focus-within {
+    width: 100%;
+    @include border-small-blue;
+    color: $primary-blue;
+  }
+}
+
+.input-search {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: $black;
+  margin-left: 0.8rem;
+  flex-grow: 1;
+}

@@ -1,2 +1,14 @@
-@import "./variables.scss";
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+
 @import "./base.scss";
+
+@import "./layouts/container.scss";
+@import "./layouts/wrapper.scss";
+
+@import "./components/buttons.scss";
+@import "./components/filter_nav.scss";
+@import "./components/input.scss";
+@import "./components/table.scss";
+
+@import "./pages/landing.scss";

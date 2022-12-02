@@ -1,0 +1,6 @@
+.search-wrapper {
+  @include flex-row;
+  width: 40%;
+  position: relative;
+  align-items: center;
+}

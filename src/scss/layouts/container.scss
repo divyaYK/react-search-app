@@ -1,0 +1,20 @@
+.main-container {
+  @include flex-column;
+}
+
+.secondary-container {
+  @include flex-row;
+  flex-grow: 1;
+}
+
+.nav-top {
+  background-color: $white;
+  height: 60px;
+  width: 100%;
+
+  @include flex-row;
+  justify-content: center;
+  align-items: center;
+
+  @include box-shadow;
+}
