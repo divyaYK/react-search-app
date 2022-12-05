@@ -1,4 +1,21 @@
-.table-container {
-  display: flex;
-  flex-grow: 1;
+.table-abn {
+  background-color: $white;
+  @include border-small;
+  border-radius: 8px;
+  padding: 1rem;
+
+  & thead tr th {
+    color: $gray-light;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    text-align: left;
+    @include border-bottom-small;
+  }
+
+  & tbody tr td {
+    color: $black;
+    font-size: 1rem;
+    padding: 0.2rem;
+    @include border-bottom-small;
+  }
 }

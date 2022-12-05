@@ -18,6 +18,10 @@
   border: 1px solid $gray-light;
 }
 
+@mixin border-bottom-small {
+  border-bottom: 1px solid $gray-lightest;
+}
+
 @mixin border-large-blue {
   border: 2px solid $primary-blue;
 }

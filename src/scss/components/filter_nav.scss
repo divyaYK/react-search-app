@@ -2,5 +2,6 @@
   display: flex;
   width: 20%;
   background-color: $white;
+  margin-top: 1.5rem;
   @include border-small;
 }
