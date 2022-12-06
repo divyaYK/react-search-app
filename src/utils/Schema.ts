@@ -180,6 +180,7 @@ export const NameEnum = Object.freeze({
 export enum StatusType {
   cancelled = "CAN",
   active = "ACT",
+  non = "NON",
 }
 
 export enum StateEnum {

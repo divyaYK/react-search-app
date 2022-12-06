@@ -1,0 +1,25 @@
+.status {
+  padding: 0.5rem;
+  width: 150px;
+}
+
+.status-active {
+  background-color: rgba($primary-blue, 0.2);
+  color: $primary-blue;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.status-non {
+  background-color: rgba($primary-yellow, 0.2);
+  color: darken($primary-yellow, 30%);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.status-cancelled {
+  background-color: rgba($primary-red, 0.2);
+  color: $primary-red;
+  padding: 0.5rem;
+  border-radius: 4px;
+}

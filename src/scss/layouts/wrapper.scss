@@ -15,4 +15,7 @@
 .table-wrapper {
   max-height: 90vh;
   overflow: auto;
+  @include border-small;
+  border-radius: 8px;
+  @include bg-white;
 }

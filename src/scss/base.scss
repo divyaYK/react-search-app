@@ -17,3 +17,22 @@
 #root {
   background-color: $gray-lightest;
 }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: rgba($secondary-yellow, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba($secondary-blue, 0.3);
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in;
+
+  &:hover {
+    background-color: rgba($secondary-blue, 0.5);
+  }
+}

@@ -1,4 +1,4 @@
-import AbnTable from "../components/AbnTable";
+import AbnTable from "../components/AbrTable";
 import FilterNav from "../components/FilterNav";
 import Search from "../components/Search";
 

@@ -1,21 +1,49 @@
 .table-abn {
-  background-color: $white;
-  @include border-small;
-  border-radius: 8px;
+  border-collapse: collapse;
+  white-space: nowrap;
   padding: 1rem;
 
-  & thead tr th {
-    color: $gray-light;
-    font-size: 0.8rem;
-    padding: 0.2rem;
-    text-align: left;
-    @include border-bottom-small;
+  & thead tr {
+    @include box-shadow;
+
+    & th {
+      color: $gray-light;
+      font-size: 0.8rem;
+      height: 50px;
+      text-align: left;
+      padding: 1rem;
+      @include border-bottom-small;
+    }
   }
 
-  & tbody tr td {
-    color: $black;
-    font-size: 1rem;
-    padding: 0.2rem;
-    @include border-bottom-small;
+  & tbody tr {
+    vertical-align: text-top;
+
+    & td {
+      color: $black;
+      font-size: 1rem;
+      padding: 1rem;
+      @include border-bottom-small;
+    }
   }
+}
+
+.entity-type {
+  width: 200px;
+  white-space: nowrap;
+}
+
+.entity-category {
+  width: 150px;
+}
+
+.address {
+  width: 150px;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+
+.other-entity {
+  max-width: 250px;
+  text-overflow: ellipsis;
 }
