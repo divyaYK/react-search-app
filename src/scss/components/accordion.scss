@@ -1,0 +1,12 @@
+.accordion-title {
+  @include flex-row;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.caret-icon {
+  color: $gray-light;
+}

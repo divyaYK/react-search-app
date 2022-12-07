@@ -56,9 +56,7 @@ const AbnTable = () => {
                     {eachAbr.entity?.entityCategory}
                   </td>
                   <td className="entity-type">
-                    {eachAbr.entityType?.entityTypeInd
-                      ? EntityTypes[eachAbr.entityType?.entityTypeInd]
-                      : ""}
+                    {eachAbr.entityType?.entityTypeInd}
                   </td>
                   <td className="entity-type">
                     {eachAbr.entityType?.entityTypeText}
@@ -73,7 +71,7 @@ const AbnTable = () => {
                     eachAbr.entity?.businessAddress?.state
                       ? StateNames[eachAbr.entity?.businessAddress?.state]
                       : "-"
-                  } ${eachAbr.entity?.businessAddress?.postcode}`}</td>
+                  } - ${eachAbr.entity?.businessAddress?.postcode}`}</td>
                   <td className="status">
                     <Status
                       status={eachAbr.gst?.status}

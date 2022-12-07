@@ -1,7 +1,25 @@
 .filter-nav {
-  display: flex;
   width: 20%;
   background-color: $white;
   margin-top: 1.5rem;
   @include border-small;
+  @include flex-column;
+  border-top-right-radius: 8px;
+
+  & .filter-header {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    @include border-bottom-small;
+  }
+
+  & .filter-list {
+    font-size: 1rem;
+
+    & li {
+      padding: 1rem;
+      @include border-bottom-small;
+    }
+  }
 }
